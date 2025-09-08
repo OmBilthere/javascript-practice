@@ -6,3 +6,5 @@ accountCity="jabalpur"
 accountEmail="omking"
 pass="4321"
 accountCity="banglore"
+
+console.table([accountEmail, pass , accountCity])
