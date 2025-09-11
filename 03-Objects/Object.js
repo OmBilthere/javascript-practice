@@ -1,4 +1,8 @@
 //  singleton-->ye constructor se bnta h itna dhyan rkhna h filhal ke liye ye bnta h Object.create method use krke
+// next file m yaani 03-Objects/Object2.js m h ye
+
+
+
 
 // yaha hum object literals ki baat krenge 
 
