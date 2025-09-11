@@ -7,7 +7,7 @@ const tinderUser = new Object () // singleton object bas itna yaad rkho ki ye
 
  tinderUser.id ="240704"
  tinderUser.name= "Om"
-
+ 
 const regularUser = {
     email: "someemail@gmail.com",
     
@@ -101,12 +101,15 @@ console.log(CN)
 // const navbar = () => {
 
 // }
-// navbar(company="Om")
+// navbar({company: "Om"})
 // upar prblm ye h ki kaun bheje neeche se call krke argument (props bolte h inhe)
 // to uski jgh hum use krenge neeche wlaa
-// const navbar= ({company}) = > {
+
+// const navbar= ({company}) => {
  
 // }
+
+
 
 //  Api call se json format m aata h data phle xml aata tha
 // 1. JSON file ka format (normally yahi use hota h)

@@ -55,7 +55,7 @@ function logedin(username ="om") {
 
 
 // ab upar to function m hume pta h ki kitne args pass ho rhe h kya ho 
-// agarr hume pta hi na ho ki agrs kitne aayenga eg - ecommerce shopping website m cart m kitne bhi item aa skte h
+// agar hume pta hi na ho ki agrs kitne aayenga eg - ecommerce shopping website m cart m kitne bhi item aa skte h
 // basic eg - neeche hum rest operator (spread ko hi yaha rest bol dete h)  
 function calculateCartPrice (...num1) {
   return num1
@@ -77,7 +77,7 @@ const user = {
     price : 199
 }
 function handleObj (anyobject) {
-    console.log(`username is ${anyobject.username} and price ${anyobject.price}`);
+    // console.log(`username is ${anyobject.username} and price ${anyobject.price}`);
     
 }
 // handleObj(user)
@@ -95,7 +95,7 @@ function returnSecondValue (getArr) {
     return getArr[1]
 }
 
-console.log(returnSecondValue(myArr[1]))
+console.log(returnSecondValue(myArr))
 
 // ab direct daalenge
  console.log(returnSecondValue([400 , 1000 , 4000 ]))

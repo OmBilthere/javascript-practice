@@ -10,6 +10,7 @@
 //     console.log(val);
     
 // }
+
 // const greeting = "Hello World" 
 // for (const element of greeting) {
 //     console.log(element);
@@ -28,30 +29,31 @@ map.set('Fr', "France")
 // }  
 
 // maanlo ek hi saath sab chahiye 
+
 // for(const [key , value] of map) {
 //     console.log(key , '-' , value) // sab ek saath aa jaate h
 // }
 
+
 // for of on object 
-
-
 
 // const myObj = {
 //     game1 : 'Free Fire' , 
 //     game2 : "Bgmi",
 //     game3 : "COD"
 // }
-// it is wrong 
 
-// for (const [key , value] of myObj) {
+
+// it is wrong 
+// for (const [key , value] of myObj)  {
 //    console.log(key , '-' , value) // Error dega ye object for of se iteratable nhi hote h
 
 // }
 
-// to solution ke liye hum introduce krenge forin loop ko 
+// to solution ke liye hum introduce krenge for in loop ko 
 
 
-// aur forin object pe lg rha h to iska mtlb ye nhii h ki ye sirf 
+// aur for in object pe lg rha h to iska mtlb ye nhii h ki ye sirf 
 // object pe hi lagega
 
 // for (const key in myObj) {
@@ -69,6 +71,8 @@ map.set('Fr', "France")
 //     // console.log(key) // ab ye yaha keys mtlb index print krega na ki values
 //     console.log(arr2[key]) // ye dega values of array
 // }
+
+
 // is for in loop ko map pe nhi lagaya ja skta kyoki map m iteratable nhi hota
  
 // for each
@@ -80,7 +84,7 @@ map.set('Fr', "France")
 // })
 //chahe to arrow func bhi use kr skte h lekin naam isme bhi nhi hoga
 
-// arr2.forEach( item =>{
+// arr2.forEach( (item) =>{
 //    console.log(item)
 // })
 
@@ -93,10 +97,12 @@ map.set('Fr', "France")
 // arr2.forEach(print) // yaha sirf refrence dena h to refrence ka bhi use dekh liya ki kaha kaam aata h
 // iska op sabhi array element honge
 
+
 // parameter aur bhi hote h iske pass
 // arr2.forEach ((items, index ,arr )=> {
 //     console.log(items,index,arr)
 // })
+
 // ye value index aur poora array har baar kr dega print
 
 // const mycoding = [
@@ -155,7 +161,11 @@ const nums = [0,1,2,3,4,5,6,7,8,9,10]
 // })
 // console.log(newArr) // same result 5 se 10 tk
 
+
+
+
 // map ka use 
+
 // const newnums=nums.map((num)=>num+10)
 // console.log(newnums) // sabme 10 add hoke mil jayga
 

@@ -1,14 +1,15 @@
 const marvel = ["thor", "ironman", "spiderman"]
 const dc = ["superman" , "flash" , "batman"]
 
-//marvel.push(dc)
+// marvel.push(dc)
+
 // console.log(marvel)
 
 // ab isme lagega ki dono array merge ho jayenge but esa nhi h
 // isme hota ye h ki marvel ke andar poora dc agle index pe insert ho jata h 
 // jo is baat ko bhi prove krta h ki array m koi bhi element insert kr skte h means array ke andar
 // array bhi
-//console.log(marvel[3[1]) ye op dega flash
+// console.log(marvel[3[1]) ye op dega flash
 
 
 //  merging by concat
@@ -22,7 +23,9 @@ const allHero = marvel.concat(dc)
 //console.log(marvel)
 // ab isme dono array merge ho jaayenge
 
-// ab  merge ke liye isse bhi acchi method h 
+// ab  merge ke liye isse bhi acchi method h
+
+
 //  spread 
 
 const new_allHero = [...marvel , ...dc]

@@ -31,8 +31,8 @@ const newArr= myArr.join()
 // slice 
 
 console.log("A",myArr)  // A [0,1....] ese type ka op dega
-const myn1= myArr.slice(1,3) // ye first value (here-1) starting index and second value (here-3) is 
-// the index-1 we access the element means 3 likha h to 2 tk ke element excluding 3
+const myn1= myArr.slice(1,3) // ye first value (here- 1) starting index and second value (here- 3) is 
+// the index- 1 we access the element means 3 likha h to 2 tk ke element excluding 3
 // so overall last entry nhi hatti h [1,3)
 
 console.log(myn1) 

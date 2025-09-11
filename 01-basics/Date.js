@@ -23,7 +23,7 @@ let myCreatedDate3 = new Date("09-10-2025")
 // time stamp esi jgh kaam aata h jaha pe stopwatch jaise kaam ho like quiz
 let myTimeStamp = Date.now() // milisecond m output deta h
 
-// console.log(myTimeStamp) // (milisecond) ye maanlo abhi ka date time
+// console.log(myTimeStamp) // (milisecond) ye abhi ka date time
 // console.log(myCreatedDate3.getTime()) // ye jaha se stopwatch start hua 
 // now compare both and find exact time difference
 

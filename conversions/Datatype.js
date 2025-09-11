@@ -5,7 +5,7 @@
 
 
 // Non primitve (Refrence)
-// Array , objects , functions inka typeof = function aata h
+// Array , objects , functions ....inka typeof = function aata h
 
 // declare array-----  
  const heros= ["Om", "Bilthere" , "Bhorda"]

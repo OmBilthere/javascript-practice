@@ -10,7 +10,7 @@
 const gameName = new String ('FreeFire')
 // This is stored as key value pair if we want to access a charactor 
 // in the string we can 
-//console.log(gameName[0]);
+// console.log(gameName[0]);
 // some other function or methods ---
 // console.log(gameName.charAt(1));  r dega
 // console.log(gameName.indexOf('r')) 2 dega
